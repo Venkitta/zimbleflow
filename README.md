@@ -122,8 +122,7 @@ State is handled globally using **Zustand** via `useEditorStore`. This provides 
 | Method | Description |
 |--------|-------------|
 | `addWidget` | Clones `defaultProps` from registry and assigns a unique UUID |
-| `updateWidget` | Updates a specific widget's properties without affecting the rest of its data.
- |
+| `updateWidget` | Updates a specific widget's properties without affecting the rest of its data.|
 | `selectWidget` | Tracks which element is currently active for editing |
 | `save/loadLayout` | Saves or restores canvas layout using browser's memory |
 

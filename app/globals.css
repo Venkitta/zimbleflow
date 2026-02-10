@@ -2,7 +2,7 @@
 
 @theme {
 
-  /* Define the keyframes */
+  /* animation keyframes */
   @keyframes float {
 
     0%,
@@ -25,11 +25,9 @@
     }
   }
 
-  /* Register the animation */
   --animate-float: float 6s ease-in-out infinite;
 }
 
-/* Custom 3D utilities not yet standard in Tailwind */
 @utility perspective-1000 {
   perspective: 1000px;
 }

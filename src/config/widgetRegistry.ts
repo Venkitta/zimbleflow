@@ -67,7 +67,7 @@ export const WIDGET_REGISTRY: Record<WidgetType, WidgetSchema> = {
             { name: "label", label: "Camera Label", type: "text" },
             { name: "width", label: "Width", type: "number" },
             { name: "height", label: "Height", type: "number" },
-            { name: "borderRadius", label: "Radius", type: "number" },
+            { name: "borderRadius", label: "Border Radius", type: "number" },
             { name: "showOverlay", label: "Show Overlay", type: "boolean" },
         ],
     },

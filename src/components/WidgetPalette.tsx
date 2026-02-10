@@ -37,11 +37,11 @@ export function WidgetPalette() {
 
     return (
 
-        <div className="w-64 h-full bg-slate-50 border-r p-4 flex flex-col gap-4">
-            <h2 className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
-                Components
-            </h2>
+        <div className="w-80 h-full bg-slate-50 border-r border-black p-4 flex flex-col justify-between gap-4">
             <div className="grid grid-cols-1 gap-2">
+                <div className="p-2 border-b border-black mb-2">
+                    <h1 className="font-bold text-xl text-slate-800">UI Builder</h1>
+                </div>
                 {Object.values(WIDGET_REGISTRY).map((widget) => (
                     <DraggableItem key={widget.type} widget={widget} />
                 ))}

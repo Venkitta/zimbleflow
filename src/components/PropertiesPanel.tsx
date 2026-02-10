@@ -82,7 +82,7 @@ export function PropertiesPanel() {
             <div className="p-4 border-t bg-gray-50">
                 <button
                     onClick={() => deleteWidget(selectedWidget.id)}
-                    className="w-full bg-red-100 text-red-600 py-2 rounded text-sm hover:bg-red-200"
+                    className="cursor-pointer w-full bg-red-100 text-red-600 py-2 rounded text-sm hover:bg-red-200"
                 >
                     Delete Widget
                 </button>
